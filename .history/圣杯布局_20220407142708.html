@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>圣杯布局</title>
+		<style>
+			.middle,
+			.left,
+			.right {
+				float: left;
+			}
+			.inner_middle {
+				margin: 0 300px;
+			}
+			.container {
+				border: 1px solid black;
+				height: 300px;
+				padding: 0 100px;
+			}
+			.left {
+				background: pink;
+				width: 300px;
+				height: 300px;
+				margin-left: -100%;
+			}
+
+			.right {
+				background: pink;
+				width: 300px;
+				height: 300px;
+				margin-left: -300px; //300px为右盒子的宽度
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="middle">
+				<div class="inner_middle">中间的</div>
+			</div>
+			<div class="left">左边的</div>
+			<div class="right">右边的</div>
+		</div>
+	</body>
+</html>

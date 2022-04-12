@@ -1,0 +1,7 @@
+/* 用flex实现垂直水平居中 */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
